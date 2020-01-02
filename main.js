@@ -26,6 +26,7 @@ window.onload = function()
     document.getElementById("dt").innerHTML="Мы вошли: "+Date();
 }
 
+/*функция и событие загрузки страницы*/
 function ready()
 {
     alert("загрузились");
@@ -33,6 +34,7 @@ function ready()
 
 document.addEventListener("DOMContentLoaded", ready);
 
+/*событие перед уходом со страницы*/
 window.onbeforeunload = function() {
   console.log('уходим!');
 };
