@@ -6,17 +6,20 @@ function getdate()
     document.getElementById("dt").innerHTML = Date();
 }
 
+/*наезд курсора мыши*/
 function oover()
 {
     document.getElementById("overout").innerHTML="На меня наехали";
 }
 
+/*съезд курсора мыши*/
 function oout()
 {
     document.getElementById("overout").innerHTML="Hello world!";
 }
 
 
+/*вход на сайт - открытие окна*/
 window.onload = function()
 {
      //alert('О! Куда я пришел!');
