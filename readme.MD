@@ -8,3 +8,5 @@
   <li>Событие beforeunload</li>
   <li>Отправка формы 1: событие onsubmit</li>
 </ol>
+
+<a href='https://learn.javascript.ru/form-elements'>Ссылка на уроки</a>
