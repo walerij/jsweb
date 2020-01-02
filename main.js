@@ -1,5 +1,3 @@
-
-
 function getdate()
 {
     //now = this.getDateTimeNow("yyyy-mm-dd");
@@ -27,3 +25,14 @@ window.onload = function()
     document.getElementById("overout").innerHTML="Hello world!"
     document.getElementById("dt").innerHTML="Мы вошли: "+Date();
 }
+
+function ready()
+{
+    alert("загрузились");
+}
+
+document.addEventListener("DOMContentLoaded", ready);
+
+window.onbeforeunload = function() {
+  console.log('уходим!');
+};
